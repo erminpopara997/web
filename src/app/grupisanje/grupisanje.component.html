@@ -2,7 +2,7 @@
     <h1>{{title}}</h1>
     <hr>
     <button class="btn btn-primary" [disabled]="editButton" [ngClass]="editButton ? 'btnColorTrue' : 'btnColorFalse'">Send</button>
-    <button class="btn btn-primary" (click)="onClick()">Promijeni stanje</button>
+    <button class="btn btn-primary" (click)="onClick()">Promijeni stanjee</button>
     <input type="text" [(ngModel)]="title">
     <hr>
     <p *ngFor="let user of usernames; let i = index;">{{user.username + ' ' + i}}</p>
